@@ -66,6 +66,7 @@ margin-top:10px ;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px; 
     padding-left: 42px;
+    cursor: pointer;
 
     @include desktop {
         width: 406px;
@@ -76,14 +77,28 @@ margin-top:10px ;
 
 }
 
+
+
 .send-svg {  
-     position: absolute;
+    position: absolute;
     top: 38px;
     left: 14px;
     transform: translateY(-50%);
     width: 18px;
     height: 18px;
+    
+    fill: #212121;
+
+    transition: fill 250ms cubic-bezier(0.4 , 0 , 0.2 , 1);
+
     }
+
+
+ .send-box:focus-within  .send-svg {fill: #188CE8;}
+ .send-box:focus-within .send-field {border-color: #2196F3; }
+
+  .send-box:hover .send-svg {fill: #188CE8;}
+.send-box:hover .send-field {border-color: #2196F3; }
 
 
 .textarea-text {
@@ -128,6 +143,7 @@ margin-bottom: 4px;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #757575;
+    cursor: pointer;
     
     @include desktop {
         margin-left: 40px;
@@ -145,7 +161,7 @@ margin-bottom: 4px;
  margin-left: 125px;
  margin-right: 125px;
  margin-top: 30px;
-
+cursor: pointer;
     
 background: #188CE8;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);

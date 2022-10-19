@@ -36,8 +36,10 @@ transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
-.porfolio-link:hover .porfolio-btn ,
-.porfolio-link:focus .porfolio-btn {
-    background-color: #2196F3;
-    color: #FFFFFF;
+ 
+
+.porfolio-btn:focus ,
+.porfolio-btn:hover {
+      background-color: #2196F3;
+      color: #FFFFFF;
 }
