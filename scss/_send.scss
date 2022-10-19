@@ -1,0 +1,160 @@
+/*-- ввод даних  */
+
+.send {
+    @include desktop {
+        width: 528px;
+        height: 581px;
+    }
+}
+
+.send-p {
+margin-left: auto;
+margin-right: auto;
+
+padding-top: 40px;
+
+width: 370px;
+height: 60px;
+
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+
+@include desktop {
+    width: 448px;
+    height: 23px;
+    line-height: 23px;
+}
+
+}     
+
+.send-input { position: relative;
+margin-left: 40px;
+margin-right: 40px;
+
+@include desktop {
+        width: 448px;
+    }
+}
+
+
+.send-box {
+display: flex;
+flex-direction: column;
+position: relative;
+margin-top:10px ;
+
+
+    
+}
+
+.send-box label {
+      font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.01em;
+        color: #757575;
+        margin-bottom: 4px;
+}
+
+.send-field {
+    width: 328px;
+    height: 40px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px; 
+    padding-left: 42px;
+
+    @include desktop {
+        width: 406px;
+    }
+
+   
+
+
+}
+
+.send-svg {  
+     position: absolute;
+    top: 38px;
+    left: 14px;
+    transform: translateY(-50%);
+    width: 18px;
+    height: 18px;
+    }
+
+
+.textarea-text {
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.01em;
+color: #757575;
+margin-top: 10px;
+margin-bottom: 4px;
+}    
+
+.send-textarea {
+    box-sizing: border-box;
+    width: 370px;
+    height: 120px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    resize: none;
+
+    padding-left: 16px;
+    padding-top: 10px;
+
+    @include desktop {
+        width: 448px;
+        
+    }
+ }   
+
+
+ .send-check {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+    margin-top: 20px;
+    margin-left: 12px;
+    gap: 10px;
+   
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    
+    @include desktop {
+        margin-left: 40px;
+    }
+
+    }
+
+
+  .send-check__a {
+    color:  #2196F3;
+    text-decoration: underline;}
+
+
+  .send-btn {
+ margin-left: 125px;
+ margin-right: 125px;
+ margin-top: 30px;
+
+    
+background: #188CE8;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+color: #FFFF;
+width: 200px;
+height: 50px;
+border: none;
+}
+   
+    
+  

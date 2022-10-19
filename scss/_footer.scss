@@ -1,0 +1,283 @@
+.footer {
+    background-color: #2F303A;
+
+    @media screen and (max-width:767px) {
+        padding-top: 60px;
+        height: 603px;
+        min-width: 480px;
+        max-width: 767px;
+     
+        
+    }
+
+     @media screen and (min-width:768px) {
+        padding-top: 60px;
+        height: 463px;
+        }
+
+          @media screen and (min-width:1200px){
+            height: 252px;
+
+          }
+}
+
+.container-flex {
+
+    @media screen and (min-width:1200px) {
+       display: flex; 
+    }
+    
+}
+
+.tablet {
+    @media screen and (min-width:768px) {
+    display: flex;
+    justify-content: space-around;
+    }
+
+    @media screen and (min-width:1200px){
+        gap: 70px;
+    }
+}
+
+.fhirst {
+     
+       display: flex;
+       flex-direction: column;
+       
+        @media screen and (max-width:1199px) {
+        justify-content: center;
+        align-items: center;
+        
+       }
+     
+}
+
+.fhirst-logo { 
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+letter-spacing: 0.03em;
+color: #2196F3;
+
+margin-bottom: 20px;
+
+
+}
+
+.fhirst-adres {
+    @media screen and (min-width:1200px) {
+        width: 231px;
+    }
+    
+}
+
+.fhirst-logo__colour {
+font-family: 'Raleway';
+font-style: normal;
+color:  #FFFFFF;
+}
+
+.fhirst-titel {
+    display: flex;
+    
+    flex-direction: column;
+
+    @media screen and (max-width:1199px) {
+    align-items: center;
+        
+    }
+}
+
+.fhirst-li:not(:last-child) { 
+    margin-bottom: 8px;
+}
+
+.fhirst-location {
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+
+
+}
+
+.fhirst-contackt {
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media screen and (max-width:767px) {
+        margin-top: 60px;
+        
+    }
+}
+
+.second-titel {
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+
+margin-bottom: 20px;
+}
+
+.second-list {
+    display: flex;
+    gap: 10px;
+
+}
+
+.second-set {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);;
+}
+
+.second-site {
+    display:flex;
+    justify-content: center;
+}
+
+.second-icon {
+    fill: #FFFFFF;
+}
+
+
+.third {
+    
+
+     @media screen and (min-width:1200px) {
+     margin-left: 93px;
+    }
+
+}
+
+.third-form {
+    display: flex;
+    justify-content: center;
+
+    @media screen and (max-width:1199px) {
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+    @media screen and (min-width:1200px) {
+     
+    } 
+}
+
+
+.third-follow {
+    @media screen and (max-width:767px) {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media screen and (min-width:768px) {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center
+    
+}
+
+ @media screen and (min-width:1200px) {
+    align-items: flex-start;
+    } 
+}
+
+
+.third-follow label {
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+
+
+
+}
+
+.third-input {
+background-color: transparent;
+border: 1px solid rgba(255, 255, 255, 0.3);
+border-radius: 4px;
+padding-left: 16px;
+margin-top: 20px;
+
+@media screen and (max-width:1199px) {
+    width: 450px;
+    height: 50px;
+    
+}
+
+@media screen and (min-width:1200px) {
+    width: 358px;
+    height: 50px;
+}
+    
+}
+
+.third-subscribe { 
+
+    @media screen and (min-width:1200px) {
+    display: flex;
+    align-items: flex-end;
+    margin-left: 12px ;}
+}
+
+.third-btn {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+   
+   @media screen and (max-width:1199px) {
+   
+    gap: 12px;
+    margin-top: 30px; }
+
+
+    width: 200px;
+    height: 50px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: #FFFFFF;
+    border: none;
+
+
+
+}
+
+

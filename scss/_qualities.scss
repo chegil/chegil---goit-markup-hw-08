@@ -1,0 +1,93 @@
+.visually-hidden {display: none;}
+
+
+.qualities-me {
+
+    @media screen and (min-width:768px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+    margin-top: 60px;}
+
+    @media screen and (min-width:1200px){
+    display: flex;
+    margin: -15px;
+    margin-top: 94px;
+}
+   
+}
+
+.qualities-list {
+ 
+@include tel {
+    &:first-child { margin-top: 60px;}
+}    
+
+ @media screen and (min-width:768px) {
+    width: 354px;
+    margin: 15px;
+    
+}
+
+@media screen and (min-width: 1200px){
+    width: 270px;
+
+}
+
+
+}
+
+
+
+.qualities-block {
+background: #F5F4FA;
+border-radius: 4px;
+
+width: 450px;
+height: 120px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+@include tablet {
+    width: 354px;
+
+}
+
+@media screen and (min-width: 1200px){
+    width: 270px;
+
+}
+
+
+}
+
+.qualities-titel {
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+
+margin-top: 30px;
+
+@media screen and (max-width:767px) {
+    text-align: center;
+}
+
+
+}
+
+.qualities-text {
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #757575;
+
+margin-top: 10px;
+margin-bottom: 30px;
+}

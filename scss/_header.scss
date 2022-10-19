@@ -1,0 +1,247 @@
+/* logo */
+
+.header {
+    border-bottom: 1px solid #ECECEC;
+}
+
+.header-logo {
+display: flex;
+align-items: center;
+width: 134px;
+height: 28px;
+font-weight: 700;
+font-size: 24px;
+line-height: 1.16px;
+letter-spacing: 0.03em;
+text-decoration: none;
+color: #2196F3;
+
+@media screen and (max-width:767px) {
+    position: absolute;
+    top: 16px;
+    left: 15px;}
+
+@media screen and (min-width:768px)    {
+
+}
+}
+
+.header-stud {
+    color: #212121;
+}
+
+/* info */
+
+
+ 
+
+
+
+.menu-container {
+    background-color: #FFFFFF;
+    font-size: 20px;
+    
+    @media screen and (max-width: 767px) {
+    display: none;
+    position: absolute;
+    z-index: 4;
+    top: 0;
+    left: 0;
+    
+    width: 450px;
+    height: 756px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 40px;
+   }
+
+    &.is-open {
+        display: block;}
+
+    @media screen and (min-width:768px){
+    display: flex;
+    align-items: center;}   
+
+   @media screen and (min-width:1200px){
+
+    display: flex;
+    align-items: center;
+    height: 80px;}   
+}
+
+
+
+.navigaton-set {
+        @media screen and (min-width: 768px){
+        display: flex;
+        margin-left: 88px;
+        gap: 51px;}
+
+        }
+   
+.navigation-list   { 
+padding-top: 10px;
+padding-bottom: 10px; 
+    
+@media screen and (max-width: 767px){
+width: 219px;
+height: 48px;
+padding-left: 25px;
+&:not(:last-child ) { margin-bottom: 40px;}
+} 
+}
+.navigation-link {
+color: #212121;
+ font-weight: 500;
+ letter-spacing: 0.02em;
+ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+  @media screen and (max-width:767px) {
+    font-size: 40px;
+    line-height: 47px;}
+
+     @media screen and (min-width:768px) { 
+    font-size: 14px;
+    line-height: 16px;}
+
+    
+
+}
+
+.navigation-list:hover  .navigation-link {color: #2196F3;}
+.navigation-list:focus  .navigation-link {color: #2196F3;}
+
+
+
+.contacts-set {
+    
+    @media screen and (max-width:767px) {
+     margin-top: 300px;
+     display: flex;
+     flex-direction: column-reverse ;}
+
+     @media screen and (min-width:768px) {
+        
+        margin-left: 95px;
+     }
+
+     @media screen and (min-width:1200px){
+        margin-left: 315px;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+
+     }
+}
+
+.contacts-list {
+    
+
+    @media screen and (max-width:767px) {
+    &:not(:first-child )  {
+    margin-bottom: 32px;}
+    }
+
+    @media screen and (max-width:1199px) {
+        display: flex;
+        align-items: baseline;
+        &:first-child { margin-bottom: 10px;}
+    }
+     
+  
+
+    }
+
+.contacts-list:hover .contackts-tel ,
+.contacts-list:focus .contackts-tel { color: #2196F3;}
+
+.contacts-list:hover .contackts-card use ,
+.contacts-list:focus .contackts-card use {fill: #2196F3;}
+
+.contackts-tel {
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.02em;
+color: #757575;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+@media screen and (max-width:767px) {
+
+font-weight: 500;
+font-size: 34px;
+line-height: 40px;
+letter-spacing: 0.02em;
+color: #2196F3;
+ }
+
+@media screen and (min-width:1200px) {
+    display: flex;
+    align-items: center;
+    
+}
+}
+
+.contackts-tel__posht {
+    @media screen and (max-width:767px) {
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+letter-spacing: 0.02em;
+color: #757575;}
+
+}
+
+.contackts-card use {
+fill: #757575;
+transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+ @media screen and (max-width:767px) {
+ display: none;
+    }
+}
+
+    
+.site-set {
+    @media  screen and (min-width:768px) {
+     display: none;}
+
+    @media screen and (max-width:767px){
+        display: flex;
+        margin-top: 85px;
+        padding-left: 20px;
+        } }
+
+.site-set li {
+    border-right: 1px solid rgba(33, 33, 33, 0.2)
+}        
+
+.site-list {
+ 
+   &:first-child { list-style: none;} ;
+   &:not(:first-child){margin-left: 10px; }
+   
+}
+
+
+ .site-a { 
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+letter-spacing: 0.02em;
+color: #2196F3;
+margin-right: 10px;
+ }   
+
+
+
+
+
+
+
+
+
+
+ 
+

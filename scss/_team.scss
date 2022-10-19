@@ -1,0 +1,136 @@
+.team {
+   
+    background-color: #F5F4FA;
+
+
+       @media screen and (max-width:767px) {
+       min-height: 2761px;
+       max-width: 767px;
+       min-width: 480px;
+       margin: auto;}
+
+     @media screen and (min-width:1200px) {
+       height: 708px;}
+    
+}
+
+.team-titel {
+
+    
+    @media screen and (max-width:767px) {
+        padding-bottom: 30px;
+        padding-top: 60px;
+         text-align: center;
+    }
+
+    @media screen and (min-width:768px) {
+        text-align: center;
+       padding-top: 60px;
+       padding-bottom: 30px;
+        
+    }
+
+    @media screen and (min-width:1200px) {
+        text-align: center;
+       padding-top: 60px;
+      
+        
+    }
+
+}
+
+.team-lid {
+    @media screen and (min-width:768px) {
+        display: flex;
+        flex-wrap: wrap;
+       margin: -15px;
+        
+        
+    }
+}
+
+.team-cart {
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    margin-bottom: 30px;
+   
+       
+     width: 450px;
+     height: 622px;   
+    
+    @media screen and (max-width:767px) {
+    
+        
+    }
+
+     @media screen and ( min-width:768px) {
+        width: 354px;
+        height: 536px;
+         margin: 15px;
+
+     }
+
+     @media screen and ( min-width:1200px) {
+        width: 270px;
+        height: 428px;
+
+     }
+}
+
+.team-men {
+text-align: center;
+padding-top: 30px;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.03em;
+color: #212121;
+
+
+}
+
+
+.team-text {
+padding-top: 10px;
+
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+
+}
+
+
+.social {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+
+    padding-top: 15px;
+    gap: 10px;
+}
+
+.social-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 44px;
+    height: 44px;
+
+    border-radius: 50%;
+   
+}
+
+.social-site {
+    display: flex;
+    justify-content: center;
+}
+
+.social-svg {
+    fill: #AFB1B8;;
+}
