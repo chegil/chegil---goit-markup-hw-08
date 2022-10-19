@@ -1,6 +1,6 @@
 /*  кнопка меню  */
 
-.menu-button {
+.menu-toggle {
    
      
     @media screen and (max-width:767px) {
@@ -20,28 +20,9 @@
     
 }
 
-.menu-button .icon-cross {
-    display: none;
-}
-
-.menu-button.is-open .icon-cross {
-    display: block;
-    
-}
-
-.menu-button.is-open .icon-menu {
-    display: none;
-    
-}
-
-.button-svg {
-@media screen and (max-width: 767px){
-
-
-top: 10px;
-right: 15px;
-}
-}
+.button-close { 
+    display: flex;
+    justify-content: flex-end;}
 
 
 .button-close {

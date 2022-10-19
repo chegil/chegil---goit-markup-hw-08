@@ -81,6 +81,14 @@ a {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .container-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
 /* logo */
 .header {
   border-bottom: 1px solid #ECECEC;
@@ -122,11 +130,12 @@ a {
   .menu-container {
     display: none;
     position: absolute;
+    position: fixed;
     z-index: 4;
     top: 0;
     left: 0;
-    width: 480px;
-    height: 796px;
+    width: 100vw;
+    height: 100%;
     padding-left: 15px;
     padding-right: 15px;
   }
@@ -334,6 +343,7 @@ a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    margin-top: 64px;
     padding-left: 20px;
   }
 }
@@ -360,7 +370,7 @@ a {
 
 /*  кнопка меню  */
 @media screen and (max-width: 767px) {
-  .menu-button {
+  .menu-toggle {
     padding: 10px;
     padding-right: 25px;
     margin: 0px;
@@ -369,28 +379,18 @@ a {
   }
 }
 @media screen and (min-width: 768px) {
-  .menu-button {
+  .menu-toggle {
     display: none;
   }
 }
 
-.menu-button .icon-cross {
-  display: none;
-}
-
-.menu-button.is-open .icon-cross {
-  display: block;
-}
-
-.menu-button.is-open .icon-menu {
-  display: none;
-}
-
-@media screen and (max-width: 767px) {
-  .button-svg {
-    top: 10px;
-    right: 15px;
-  }
+.button-close {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 @media screen and (min-width: 768px) {
