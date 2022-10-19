@@ -33,11 +33,7 @@ color: #2196F3;
 /* info */
 
 
- 
-
-
-
-.menu-container {
+ .menu-container {
     background-color: #FFFFFF;
     font-size: 20px;
     
@@ -50,23 +46,20 @@ color: #2196F3;
     
     width: 450px;
     height: 756px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 40px;
-   }
+    padding-left:15px;
+    padding-right: 15px;}
 
     &.is-open {
-        display: block;}
+    display: block;}
 
     @media screen and (min-width:768px){
-    display: flex;
-    align-items: center;}   
+     display: flex;
+     align-items: center;}   
 
-   @media screen and (min-width:1200px){
-
-    display: flex;
-    align-items: center;
-    height: 80px;}   
+    @media screen and (min-width:1200px){
+     display: flex;
+     align-items: center;
+     height: 80px;}   
 }
 
 
@@ -109,7 +102,7 @@ color: #212121;
 }
 
 .navigation-list:hover  .navigation-link {color: #2196F3;}
-.navigation-list:focus  .navigation-link {color: #2196F3;}
+.navigation-link:focus {color: #2196F3;}
 
 
 
@@ -152,11 +145,11 @@ color: #212121;
 
     }
 
-.contacts-list:hover .contackts-tel ,
-.contacts-list:focus .contackts-tel { color: #2196F3;}
+.contacts-list:hover .contackts-tel { color: #2196F3;}
+.contackts-tel:focus { color: #2196F3;}
 
-.contacts-list:hover .contackts-card use ,
-.contacts-list:focus .contackts-card use {fill: #2196F3;}
+.contacts-list:hover .contackts-use  {fill: #2196F3;}
+.contackts-tel:focus .contackts-use {fill: #2196F3;}
 
 .contackts-tel {
 font-weight: 500;
@@ -193,8 +186,9 @@ color: #757575;}
 
 }
 
-.contackts-card use {
+.contackts-use {
 fill: #757575;
+
 transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
  @media screen and (max-width:767px) {
@@ -209,7 +203,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     @media screen and (max-width:767px){
         display: flex;
-        margin-top: 85px;
+        
         padding-left: 20px;
         } }
 

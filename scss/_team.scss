@@ -118,19 +118,35 @@ color: #757575;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: transparent;
 
-    width: 44px;
-    height: 44px;
-
-    border-radius: 50%;
-   
+  
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+
 
 .social-site {
     display: flex;
     justify-content: center;
+    align-items: center;
+
+    background-color: #FFFFFF;
+    width: 44px;
+    height: 44px;
+
+    border-radius: 50%;
+    
+     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
+.social-site:hover ,
+.social-site:focus { background-color: #2196F3;}
 
 .social-svg {
     fill: #AFB1B8;;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.social-site:hover .social-svg ,
+.social-site:focus .social-svg { fill: #FFFFFF;}
