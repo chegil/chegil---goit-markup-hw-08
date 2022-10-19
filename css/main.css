@@ -46,7 +46,7 @@ a {
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1199px) {
   .header-container {
     height: 80px;
     margin-left: auto;
@@ -57,6 +57,12 @@ a {
   .header-container {
     height: 60px;
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
   }
 }
 @media screen and (min-width: 768px) {
@@ -119,8 +125,8 @@ a {
     z-index: 4;
     top: 0;
     left: 0;
-    width: 450px;
-    height: 756px;
+    width: 480px;
+    height: 796px;
     padding-left: 15px;
     padding-right: 15px;
   }
@@ -382,10 +388,14 @@ a {
 
 @media screen and (max-width: 767px) {
   .button-svg {
-    position: absolute;
     top: 10px;
     right: 15px;
-    z-index: 5;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .button-close {
+    display: none;
   }
 }
 
