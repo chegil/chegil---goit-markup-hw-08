@@ -604,11 +604,14 @@ a {
   cursor: pointer;
 }
 
+.modal-btn:hover .modal-svg {
+  fill: #2196F3;
+}
+
 .modal-svg {
   position: absolute;
   width: 18px;
   height: 18px;
-  fill: #000000;
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -681,6 +684,9 @@ a {
   border-radius: 4px;
   padding-left: 42px;
   cursor: pointer;
+  outline: none;
+  -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 @media screen and (min-width: 1200px) {
   .send-field {
@@ -696,24 +702,15 @@ a {
           transform: translateY(-50%);
   width: 18px;
   height: 18px;
-  fill: #212121;
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.send-box:focus-within .send-svg {
+.send-input:focus-within .send-focus {
   fill: #188CE8;
 }
 
-.send-box:focus-within .send-field {
-  border-color: #2196F3;
-}
-
-.send-box:hover .send-svg {
-  fill: #188CE8;
-}
-
-.send-box:hover .send-field {
+.send-input:focus-within .send-field {
   border-color: #2196F3;
 }
 
@@ -1697,6 +1694,7 @@ a {
   padding-left: 16px;
   margin-top: 20px;
   color: #FFFFFF;
+  outline: none;
 }
 @media screen and (max-width: 1199px) {
   .third-input {

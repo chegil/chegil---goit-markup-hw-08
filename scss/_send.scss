@@ -67,6 +67,9 @@ margin-top:10px ;
     border-radius: 4px; 
     padding-left: 42px;
     cursor: pointer;
+     outline: none;
+
+     transition: border 250ms cubic-bezier(0.4 , 0 , 0.2 , 1);
 
     @include desktop {
         width: 406px;
@@ -87,18 +90,17 @@ margin-top:10px ;
     width: 18px;
     height: 18px;
     
-    fill: #212121;
-
     transition: fill 250ms cubic-bezier(0.4 , 0 , 0.2 , 1);
 
     }
 
+.send-input:focus-within  .send-focus{fill: #188CE8;}
+.send-input:focus-within .send-field {border-color: #2196F3; }
 
- .send-box:focus-within  .send-svg {fill: #188CE8;}
- .send-box:focus-within .send-field {border-color: #2196F3; }
 
-  .send-box:hover .send-svg {fill: #188CE8;}
-.send-box:hover .send-field {border-color: #2196F3; }
+
+ 
+
 
 
 .textarea-text {
