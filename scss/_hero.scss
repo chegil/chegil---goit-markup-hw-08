@@ -16,6 +16,8 @@
     justify-content: space-between
   }
 
+
+
 }
 
 .hero-child {
@@ -23,16 +25,16 @@
      &:not(:last-child){margin-bottom: 30px; }
     &:first-child {margin-top: 30px;} }
 
-     @media screen and (max-width:1199px) {
+     @media screen and (min-width:768px) {
     max-width: 354px;
     height: 440px;
-    &:not(:last-child) {margin-bottom: 30px;}
+   
     
 }
 
   @media screen and (min-width:1200px) {
     max-width: 370px;
-
+   
     &:nth-child(-n+6) {margin-bottom: 30px;}}
 
 }

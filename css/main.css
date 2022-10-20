@@ -29,7 +29,7 @@ a {
     display: block;
     position: absolute;
     content: "";
-    bottom: -20px;
+    bottom: -21px;
     width: 100%;
     height: 4px;
     background-color: #2196F3;
@@ -264,7 +264,7 @@ a {
 }
 @media screen and (min-width: 1200px) {
   .contacts-set {
-    margin-left: 315px;
+    margin-left: 365px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -410,7 +410,6 @@ a {
 @media screen and (max-width: 767px) {
   .menu-toggle {
     padding: 10px;
-    padding-right: 25px;
     margin: 0px;
     border: none;
     background-color: transparent;
@@ -438,14 +437,19 @@ a {
 }
 
 .about {
-  min-width: 480px;
-  max-width: 480px;
-  height: 400px;
   margin: auto;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../img/studio/about/about-tel-1x.jpg);
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/studio/about/about-tel-1x.jpg);
+  padding-top: 118px;
+  padding-bottom: 118px;
 }
-@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media screen and (max-width: 767px) {
+  .about {
+    width: 480px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../img/studio/about/about-tel-1x.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/studio/about/about-tel-1x.jpg);
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 767px) and (min-device-pixel-ratio: 2), screen and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2), screen and (max-width: 767px) and (min-resolution: 192dpi), screen and (max-width: 767px) and (min-resolution: 2dppx) {
   .about {
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../img/studio/about/about-tel-2x.jpg);
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/studio/about/about-tel-2x.jpg);
@@ -454,9 +458,11 @@ a {
 }
 @media screen and (min-width: 768px) {
   .about {
+    max-width: 768px;
     min-width: 768px;
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../img/studio/about/about-tablet-1x.jpg);
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/studio/about/about-tablet-1x.jpg);
+    background-size: cover;
   }
 }
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
@@ -469,8 +475,13 @@ a {
 @media screen and (min-width: 1200px) {
   .about {
     max-width: 1600px;
-    height: 600px;
-    background-image: linear-gradient to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4), url(../img/studio/about/about-desktop-1x.jpg);
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200px;
+    padding-bottom: 280px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../img/studio/about/about-desktop-1x.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/studio/about/about-desktop-1x.jpg);
+    background-size: cover;
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
@@ -486,7 +497,6 @@ a {
   height: 84px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 118px;
   font-weight: 900;
   font-size: 26px;
   line-height: 42px;
@@ -499,7 +509,6 @@ a {
   .about-titel {
     width: 696px;
     height: 120px;
-    padding-top: 200px;
     font-size: 44px;
     line-height: 60px;
   }
@@ -839,7 +848,7 @@ a {
 }
 
 .qualities {
-  padding-bottom: 60px;
+  padding-bottom: 58px;
   padding-top: 60px;
 }
 @media screen and (min-width: 1200px) {
@@ -848,12 +857,6 @@ a {
   }
 }
 
-@media screen and (max-width: 767px) {
-  .qualities-me {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-}
 @media screen and (min-width: 768px) {
   .qualities-me {
     display: -webkit-box;
@@ -873,6 +876,11 @@ a {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .qualities-list:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
 @media screen and (min-width: 768px) {
   .qualities-list {
     width: 354px;
@@ -882,6 +890,10 @@ a {
 @media screen and (min-width: 1200px) {
   .qualities-list {
     width: 270px;
+    margin: 0px;
+  }
+  .qualities-list:not(:last-child) {
+    margin-right: 30px;
   }
 }
 
@@ -1033,6 +1045,12 @@ a {
 @media screen and (min-width: 1200px) {
   .team-titel {
     text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
   }
 }
 
@@ -1072,6 +1090,10 @@ a {
     width: 270px;
     height: 428px;
   }
+}
+
+picture img {
+  display: block;
 }
 
 .team-men {
@@ -1247,6 +1269,7 @@ a {
   .company-li {
     width: 170px;
     height: 92px;
+    margin: 0px;
   }
   .company-li:not(:last-child) {
     margin-right: 30px;
@@ -1351,13 +1374,10 @@ a {
     margin-top: 30px;
   }
 }
-@media screen and (max-width: 1199px) {
+@media screen and (min-width: 768px) {
   .hero-child {
     max-width: 354px;
     height: 440px;
-  }
-  .hero-child:not(:last-child) {
-    margin-bottom: 30px;
   }
 }
 @media screen and (min-width: 1200px) {
