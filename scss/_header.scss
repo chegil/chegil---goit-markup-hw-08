@@ -196,6 +196,16 @@ color: #757575;}
 
 }
 
+.contackts-card {
+    @media screen and (min-width:768px) {
+     margin-right: 8px;   
+    }
+
+    @media screen and (min-width:1200px) {
+     margin-right: 8px;      
+    }
+}
+
 .contackts-use {
 fill: #757575;
 

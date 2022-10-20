@@ -1,4 +1,7 @@
 .work {
+    padding-top: 58px;
+    padding-bottom: 94px;
+
     @media screen and (max-width:1199px) {
         display: none;
         
@@ -15,14 +18,13 @@ text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
 
-margin-top: 118px;
 margin-bottom: 50px;
 
  }
 
 .work-list {
     display: flex;
-    margin-bottom: 94px;
+    
     
 }
 

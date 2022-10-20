@@ -1,7 +1,8 @@
 
 .porfolio-list {
     display: flex;
-    margin-top: 60px;
+    padding-top: 60px;
+    padding-bottom: 30px;
     gap: 8px;   
 
     @media screen and (max-width:767px) {
@@ -12,7 +13,12 @@
 
      @media screen and (min-width:768px){
      justify-content: center;
-     margin-bottom: 30px;
+     
+     }
+
+     @media screen and (min-width:1200px) {
+      padding-top: 94px;
+    padding-bottom: 50px;
      }
     
 }
