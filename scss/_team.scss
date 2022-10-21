@@ -65,24 +65,24 @@
    
        
      width: 450px;
-     height: 622px;   
+     padding-bottom: 24px;
     
     @media screen and (max-width:767px) {
     
      &:not(:last-child)   {  margin-bottom: 30px;}
-    
+     
     }
 
      @media screen and ( min-width:768px) {
         width: 354px;
-        height: 536px;
+       
          margin: 15px;
         
      }
 
      @media screen and ( min-width:1200px) {
         width: 270px;
-        height: 428px;
+        padding-bottom: 30px;
         
      }
 }
